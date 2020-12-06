@@ -40,7 +40,7 @@ public class MailUtil {
             Session session=Session.getDefaultInstance(properties, new Authenticator() {
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("1762063213@qq.com","whhcxqzgtokjbcfh");
+                    return new PasswordAuthentication("1762063213@qq.com","**********");
                 }
             });
             //创建邮件对象
